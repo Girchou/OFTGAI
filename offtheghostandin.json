@@ -114,7 +114,7 @@
     ],
     "name": "Delap",
     "team": "minion",
-    "ability": "2 players have the same Townsfolk character. 1 is drunk. [+1 in-play townsfolk]",
+    "ability": "2 good players have the same Townsfolk character. 1 is drunk. [+1 in-play townsfolk]",
     "flavor": "I think I’m quite quick and strong."
   },
   {
@@ -185,7 +185,7 @@
     ],
     "name": "Phil Neville",
     "team": "outsider",
-    "ability": "You think you are Gary Neville but you are not. On the 1st night, choose 2 players, 1 of your choices turns evil when they die. When both chosen players are dead, pick again.",
+    "ability": "You think you are Gary Neville but you are not. On the 1st night, choose 2 players, 1 of your choices becomes evil when they die. When both chosen players are dead, pick again.",
     "firstNight": 16,
     "otherNight": 12,
     "special": [
@@ -222,7 +222,7 @@
     "otherNightReminder": "Learn 2 numbers.",
     "name": "Gerrard",
     "team": "townsfolk",
-    "ability": "Each night*, you learn two numbers. One of these is how many steps an evil player is away from you.",
+    "ability": "Each night*, you learn two numbers. One of these is how many steps from an evil player you are.",
     "special": [
       {
         "name": "bag-duplicate",
@@ -241,7 +241,7 @@
     ],
     "name": "Norgaard",
     "team": "townsfolk",
-    "ability": "Once per game at night*, if there are 5 or more players alive, choose to kill 1 good player and 1 evil player. If only 1 evil player lives, no one dies.",
+    "ability": "Once per game at night*, if there are 5 or more players alive, choose to kill 1 good player and 1 evil player. If only 1 Minion or Demon lives, no one dies.",
     "special": [
       {
         "name": "bag-duplicate",
@@ -277,7 +277,7 @@
     ],
     "name": "Longstaff",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (different to last night): they are sober, healthy & get true info tonight. They cannot change alignment until tomorrow and if they die, they learn you tonight.",
+    "ability": "Each night, choose a player (different to last night): they are sober, healthy & get true info tonight. They cannot change alignment until tomorrow and if they die, they learn your role tonight.",
     "special": [
       {
         "name": "bag-duplicate",
@@ -381,7 +381,7 @@
     ],
     "name": "Vardy",
     "team": "townsfolk",
-    "ability": "Each Night, you may pick up to 3 players: learn how many are evil. Good players become drunk.",
+    "ability": "Each night, you may choose up to 3 players: learn how many are evil. Chosen good players become drunk.",
     "otherNight": 17,
     "special": [
       {
@@ -399,7 +399,7 @@
     ],
     "name": "Dublin",
     "team": "townsfolk",
-    "ability": "Each night*, pick a player: if they wake at night, they are drunk and you gain their ability until tomorrow.",
+    "ability": "Each night*, pick a player: if they wake at night, they are drunk and you gain their ability until tomorrow. If they do not wake tonight, you are drunk.",
     "otherNight": 4,
     "special": [
       {
@@ -431,7 +431,7 @@
     "otherNightReminder": "Choose 2 players.",
     "name": "Salah",
     "team": "townsfolk",
-    "ability": "Each night, choose 2 players: you learn if either has changed alignment.",
+    "ability": "Each night, you learn how many times players have changed alignment in this game.",
     "firstNight": 22,
     "otherNight": 21,
     "flavor": "I'm a professional, and I know in football that everything can change in one day",
