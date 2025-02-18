@@ -1,0 +1,462 @@
+[
+  {
+    "id": "_meta",
+    "name": "OffTheGhostAndIn",
+    "logo": "https://www.bloodstar.xyz/p/girchou/OffTheGhostAndIn_V1/_meta.png",
+    "almanac": "https://www.bloodstar.xyz/p/girchou/OffTheGhostAndIn_V1/almanac.html"
+  },
+  {
+    "id": "siggurdson_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/siggurdson_off_the_ghost_and_in.png",
+    "otherNightReminder": "Pick a player, 2 if evil was nominated.",
+    "remindersGlobal": [
+      "Nominated",
+      "Dead"
+    ],
+    "name": "Siggurdson",
+    "team": "demon",
+    "ability": "Each Night* choose a player: they die. If an evil player was nominated that day, choose twice. ",
+    "otherNight": 9,
+    "flavor": "Pending a police investigation..."
+  },
+  {
+    "id": "donnarumma_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/donnarumma_off_the_ghost_and_in.png",
+    "firstNightReminder": "Pick 4 players.",
+    "otherNightReminder": "1 + amount of executed minions deaths ",
+    "remindersGlobal": [
+      "False Info 1",
+      "False info 2",
+      "False Info 3",
+      "False Info 4",
+      "Dead"
+    ],
+    "name": "Donnarumma",
+    "team": "demon",
+    "ability": "On the 1st night, pick 4 players: They get incorrect info. Each subsequent night, this effect ends on 1 player. Each night, 1 player might die. Each time a Minion is executed, an extra player dies at night.",
+    "firstNight": 11,
+    "otherNight": 7,
+    "flavor": "I was never scared, I was a daredevil."
+  },
+  {
+    "id": "guardiola_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/guardiola_off_the_ghost_and_in.png",
+    "firstNightReminder": "Wake, point at all players in any order.",
+    "otherNightReminder": "If no one died last night, choose again.",
+    "remindersGlobal": [
+      "1st",
+      "2nd",
+      "3rd",
+      "4th",
+      "5th",
+      "6th",
+      "7th",
+      "8th",
+      "9th",
+      "10th",
+      "11th",
+      "12th",
+      "13th",
+      "14th",
+      "15th"
+    ],
+    "setup": true,
+    "name": "Guardiola",
+    "team": "demon",
+    "ability": "On the first night, choose the order of deaths. When a Townsfolk dies in this way, their good townsfolk neighbor is poisoned. If no kills happened last night, choose again.[+1 Outsider]",
+    "flavor": "We need the whole squad, every player of the team, if we are to be successful.",
+    "firstNight": 12,
+    "otherNight": 8
+  },
+  {
+    "id": "blatter_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/blatter_off_the_ghost_and_in.png",
+    "otherNightReminder": "Pick a player. Schedule kill in day time if no one died in the day yesterday.",
+    "remindersGlobal": [
+      "Dead"
+    ],
+    "name": "Blatter",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die.  If there are 3 or more players alive and no deaths occur in the day, choose again: that player dies at a time of your choosing.",
+    "otherNight": 6,
+    "flavor": "I am really sorry. I am sorry that I am still a punching ball."
+  },
+  {
+    "id": "greenwood_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/OffTheGhostAndIn/greenwood_offtheghostandin.png",
+    "firstNightReminder": "Choose 1 good character.",
+    "remindersGlobal": [
+      "Has ability"
+    ],
+    "name": "Greenwood",
+    "team": "minion",
+    "ability": "On your 1st night, choose 1 good character. If you were mad that you were this character, you gain their ability when 5 players live.",
+    "flavor": "...difficulties with him recommencing his career...",
+    "firstNight": 15
+  },
+  {
+    "id": "keane_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/keane_off_the_ghost_and_in.png",
+    "otherNightReminder": "Pick a player.",
+    "remindersGlobal": [
+      "Keane-picked"
+    ],
+    "name": "Keane",
+    "team": "minion",
+    "ability": "Each night*, pick a player(different to last night): they become evil for today and tomorrow dusk. Once per game, this effect might become permanent.",
+    "otherNight": 10
+  },
+  {
+    "id": "delap_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/delap_off_the_ghost_and_in.png",
+    "remindersGlobal": [
+      "Delap-drunk"
+    ],
+    "name": "Delap",
+    "team": "minion",
+    "ability": "2 players have the same Townsfolk character. 1 is drunk. [+1 in-play townsfolk]",
+    "flavor": "I think I’m quite quick and strong."
+  },
+  {
+    "id": "tsimikas_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/tsimikas_off_the_ghost_and_in.png",
+    "firstNightReminder": "Pick a player.",
+    "otherNightReminder": "Pick a player.",
+    "remindersGlobal": [
+      "Has no vote",
+      "Tsimi-poisoned"
+    ],
+    "name": "Tsimikas",
+    "team": "minion",
+    "ability": "Each night, choose a player: 1 of their neighbors is poisoned tonight and tomorrow day. The other has no vote until dusk.",
+    "firstNight": 14,
+    "otherNight": 11,
+    "flavor": "It’s definitely an extra motivation..."
+  },
+  {
+    "id": "var_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/var_off_the_ghost_and_in.png",
+    "firstNightReminder": "Watch the night phase.",
+    "otherNightReminder": "Watch the night phase.",
+    "reminders": [
+      "Has no ability"
+    ],
+    "name": "VAR",
+    "team": "minion",
+    "ability": "You may open your eyes during the night phase. If anyone is mad that you are VAR, they might be executed. Once per game, your vote counts twice, even if dead.",
+    "firstNight": 13,
+    "otherNight": 2,
+    "flavor": "Embarrassing, it’s an absolute disgrace, that’s what it is: a disgrace."
+  },
+  {
+    "id": "warnock_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/warnock_off_the_ghost_and_in.png",
+    "otherNightReminder": "if nominated, a good player dies.",
+    "remindersGlobal": [
+      "Nominated"
+    ],
+    "name": "Warnock",
+    "team": "outsider",
+    "ability": "Each time you nominate or are nominated, a good player might die that night. ",
+    "otherNight": 5,
+    "flavor": "YOU'VE GOTTA FUCKING DIE TO GET THREE POINTS"
+  },
+  {
+    "id": "allardyce_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/allardyce_off_the_ghost_and_in.png",
+    "remindersGlobal": [
+      "Death"
+    ],
+    "name": "Allardyce",
+    "team": "outsider",
+    "ability": "The first time a player changes alignment, a good player dies.",
+    "flavor": "As the game changes you have to change with it."
+  },
+  {
+    "id": "philneville_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/philneville_off_the_ghost_and_in.png",
+    "firstNightReminder": "Pick 2 players",
+    "otherNightReminder": "Wake if previously picked players are dead.",
+    "remindersGlobal": [
+      "Is Phil Neville",
+      "Picked 1",
+      "Picked 2"
+
+    ],
+    "name": "Phil Neville",
+    "team": "outsider",
+    "ability": "You think you are Gary Neville but you are not. On the 1st night, choose 2 players, 1 of your choices turns evil when they die. When both chosen players are dead, pick again.",
+    "firstNight": 16,
+    "otherNight": 12,
+    "special": [
+      {
+        "name": "bag-disabled",
+        "type": "selection"
+      },
+      {
+        "name": "replace-character",
+        "type": "reveal"
+      }
+    ],
+    "flavor": "I always say I'll rest when I die - that's my motto."
+  },
+  {
+    "id": "martin_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/martin_off_the_ghost_and_in.png",
+    "firstNightReminder": "Pick 2 players.",
+    "otherNightReminder": "Pick 2 players.",
+    "remindersGlobal": [
+      "Registers as Good",
+      "Registers as Evil"
+    ],
+    "name": "Martin",
+    "team": "outsider",
+    "ability": "Each night, choose two players: one registers as good and the other as evil tonight and tomorrow day.",
+    "flavor": "I don't like losing but I said if we do lose, I want to do it in a way that we are proud",
+    "firstNight": 18,
+    "otherNight": 14
+  },
+  {
+    "id": "gerrard_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/gerrard_off_the_ghost_and_in.png",
+    "otherNightReminder": "Learn 2 numbers.",
+    "name": "Gerrard",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn two numbers. One of these is how many steps an evil player is away from you.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "flavor": "I might be an ambassador.",
+    "otherNight": 19
+  },
+  {
+    "id": "norgaard_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/norgaard_off_the_ghost_and_in.png",
+    "otherNightReminder": "Choose if ability is used.",
+    "reminders": [
+      "No Ability"
+    ],
+    "name": "Norgaard",
+    "team": "townsfolk",
+    "ability": "Once per game at night*, if there are 5 or more players alive, choose to kill 1 good player and 1 evil player. If only 1 evil player lives, no one dies.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "flavor": "I don't take it for granted; it's very special.",
+    "otherNight": 20
+  },
+  {
+    "id": "armstrong_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/armstrong_off_the_ghost_and_in.png",
+    "firstNightReminder": "Learn a half of the circle.",
+    "name": "Armstrong",
+    "team": "townsfolk",
+    "ability": "You start knowing which half of the circle contains more evil players.  If equal, this info is arbitrary.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "flavor": "I’m over the moon.",
+    "firstNight": 19
+  },
+  {
+    "id": "longstaff_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/longstaff_off_the_ghost_and_in.png",
+    "firstNightReminder": "Pick a player.",
+    "otherNightReminder": "Pick a player.",
+    "remindersGlobal": [
+      "Picked"
+    ],
+    "name": "Longstaff",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (different to last night): they are sober, healthy & get true info tonight. They cannot change alignment until tomorrow and if they die, they learn you tonight.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "flavor": "I haven't changed, I'm still the same lad who lives at home with my mam, brother and sister.",
+    "firstNight": 20,
+    "otherNight": 3
+  },
+  {
+    "id": "vandijk_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/vandijk_off_the_ghost_and_in.png",
+    "firstNightReminder": "Pick a player.",
+    "otherNightReminder": "Pick a player.",
+    "remindersGlobal": [
+      "Picked"
+    ],
+    "name": "Van Dijk",
+    "team": "townsfolk",
+    "ability": "Each night: choose a player: they are safe from death until tomorrow dusk. If you die, they die also.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "flavor": "I looked death in the eye - and it was a terrible experience.",
+    "firstNight": 21,
+    "otherNight": 15
+  },
+  {
+    "id": "ange_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/ange_off_the_ghost_and_in.png",
+    "otherNightReminder": "Wake only if you were mad. Pick a player.",
+    "remindersGlobal": [
+      "Knows"
+    ],
+    "name": "Ange",
+    "team": "townsfolk",
+    "ability": "Each night, if you were mad that you were Australian that day, choose a player. They learn you are Ange. ",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "flavor": "Knowing how to speak to people with the right words at the right time, that's immensely powerful.",
+    "otherNight": 16
+  },
+  {
+    "id": "garyneville_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/garyneville_off_the_ghost_and_in.png",
+    "firstNightReminder": "Pick 2 players.",
+    "otherNightReminder": "Wake if previously picked players are dead.",
+    "remindersGlobal": [
+      "Picked 1",
+      "Picked 2"
+    ],
+    "name": "Gary Neville",
+    "team": "townsfolk",
+    "ability": "On the 1st night, choose 2 players: You learn their alignment at night when they die. When both chosen players are dead, pick again.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "flavor": "OhhhHhhhHh....",
+    "firstNight": 17,
+    "otherNight": 13
+  },
+  {
+    "id": "wood_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/wood_off_the_ghost_and_in.png",
+    "remindersGlobal": [
+      "Picked"
+    ],
+    "name": "Wood",
+    "team": "townsfolk",
+    "ability": "Each day, you may choose to publicly pick a player. If they are evil, they are drunk tonight.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "flavor": "He's a good balanced boy with a very good head on his shoulders"
+  },
+  {
+    "id": "vardy_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/vardy_off_the_ghost_and_in.png",
+    "otherNightReminder": "Pick up to 3 players.",
+    "remindersGlobal": [
+      "Picked 1",
+      "Picked 2",
+      "Picked 3",
+      "Vardrunk",
+      "Vardrunk",
+      "Vardrunk"
+    ],
+    "name": "Vardy",
+    "team": "townsfolk",
+    "ability": "Each Night, you may pick up to 3 players: learn how many are evil. Good players become drunk.",
+    "otherNight": 17,
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ]
+  },
+  {
+    "id": "dublin_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Off_the_ghost_and_in/dublin_off_the_ghost_and_in.png",
+    "otherNightReminder": "Pick a player.",
+    "remindersGlobal": [
+      "Dub-drunk"
+    ],
+    "name": "Dublin",
+    "team": "townsfolk",
+    "ability": "Each night*, pick a player: if they wake at night, they are drunk and you gain their ability until tomorrow.",
+    "otherNight": 4,
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ]
+  },
+  {
+    "id": "robinson_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Robinson/robinson_robinson.png",
+    "otherNightReminder": "Pick a player.",
+    "name": "Robinson",
+    "team": "townsfolk",
+    "ability": "Each night* pick a player: Learn if they woke before or after you in the night order.",
+    "flavor": "It's about being number one.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
+    "otherNight": 10
+  },
+  {
+    "id": "salah_off_the_ghost_and_in",
+    "image": "https://www.bloodstar.xyz/p/girchou/Robinson/salah_robinson.png",
+    "firstNightReminder": "Choose 2 players.",
+    "otherNightReminder": "Choose 2 players.",
+    "name": "Salah",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players: you learn if either has changed alignment.",
+    "firstNight": 22,
+    "otherNight": 21,
+    "flavor": "I'm a professional, and I know in football that everything can change in one day",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ]
+  },
+  {
+    "id": "carragher_otgai",
+    "image": "https://www.bloodstar.xyz/p/girchou/otgai/carragher_otgai.png",
+    "remindersGlobal": [
+      "Knows"
+    ],
+    "name": "Carragher",
+    "team": "townsfolk",
+    "ability": "Once per game you may visit the storyteller in the day to answer a football trivia question. If you answer correctly, learn the role of 3 evil players. Otherwise, the info is arbitrary.",
+    "flavor": "No-one wants to grow up and be a Gary Neville.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ]
+  }
+]
