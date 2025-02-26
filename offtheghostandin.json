@@ -169,7 +169,7 @@
     ],
     "name": "Allardyce",
     "team": "outsider",
-    "ability": "The first time a player changes alignment, a good player dies.",
+    "ability": "Once per game, when a player changes alignment: they do not learn this. You learn the player and their alignment instead, even if dead.",
     "flavor": "As the game changes you have to change with it."
   },
   {
@@ -431,7 +431,7 @@
     "otherNightReminder": "Choose 2 players.",
     "name": "Salah",
     "team": "townsfolk",
-    "ability": "Each night, you learn how many times players have changed alignment in this game.",
+    "ability": "Each night, you learn how many players have a different alignment to yesterday.",
     "firstNight": 22,
     "otherNight": 21,
     "flavor": "I'm a professional, and I know in football that everything can change in one day",
